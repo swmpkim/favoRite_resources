@@ -1,1 +1,6 @@
 theme: jekyll-theme-cayman
+output: html_document: 
+    keep_md: yes
+    toc: yes
+    toc_depth: 2
+    
