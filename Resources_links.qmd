@@ -1,12 +1,9 @@
 ---
 title: "Helpful R Resources"
-output: 
-  html_document: 
-    keep_md: yes
-    toc: yes
-    toc_depth: 2
-    toc_float: 
-      collapsed: false
+toc: true
+number-sections: true
+format:
+    html
 ---
 
 ```{r setup, include=FALSE}
@@ -14,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-# (updated: `r Sys.Date()`)
+(updated: `r Sys.Date()`)
 
 ***  
 
