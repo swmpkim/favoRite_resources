@@ -1,8 +1,20 @@
-# Helpful R resources
+---
+title: "Helpful R Resources"
+output: 
+  html_document: 
+    keep_md: yes
+    toc: yes
+    toc_depth: 2
+    toc_float: 
+      collapsed: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
 
-
-### latest update: 2022-07-01  
+# (updated: `r Sys.Date()`)
 
 ***  
 
@@ -147,9 +159,10 @@ Links lead to the publisher's page.
 
 +  Gotelli and Ellison, 2012. __[A Primer of Ecological Statistics, 2nd edition](https://global.oup.com/academic/product/a-primer-of-ecological-statistics-9781605350646?cc=us&lang=en&)__  
 
-+  McCune and Grace, 2002. __[Analysis of Ecological Communities](https://www.wildblueberrymedia.net/analysis-of-ecological-communities)__
++  McCune, Grace, and Urban, 2002. __[Analysis of Ecological Communities](https://www.wildblueberrymedia.net/analysis-of-ecological-communities)__
 
 
  
 
  
+
