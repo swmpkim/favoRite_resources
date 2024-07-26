@@ -1,11 +1,7 @@
 ---
-title: "favoRite_resources"
+title: "Helpful R and Statistics Resources"
 ---
 
-This is a Quarto website.
+These pages are collections of resources that I've found helpful, particularly to fellow ecologists/environmental scientists, in learning R and/or statistics. Click on the pages in the top navigation bar to view.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+If you could use R or statistics help, check out my business page at [www.catbirdstats.com](www.catbirdstats.com).

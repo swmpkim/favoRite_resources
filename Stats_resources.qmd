@@ -1,0 +1,70 @@
+---
+title: "Statistics Resources"
+format: html
+date-modified: last-modified
+toc: true
+toc-location: left
+execute:
+    eval: true
+    echo: true
+    warning: false
+    error: true
+---
+
+# Papers
+
+# Books (online)
+
+## General stats
+
+-   [**Learning Statistics with R**](https://learningstatisticswithr.com) - by Danielle Navarro. Aimed at psychology researchers but has great motivating examples of why we even use statistics in the first place. Includes lots of clearly explained, worked examples using R code.
+
+-    [**ModernDive: Statistical Inference via Data Science**](https://moderndive.com/index.html) - by Chester Ismay and Albert Y. Kim.
+
+-   [**Regression and Other Stories**](https://statmodeling.stat.columbia.edu/2022/01/27/regression-and-other-stories-free-pdf/) - Gelman et al.
+
+## Ecological, Environmental, and/or Water Resources Statistics
+
+-   Book: [**Statistical Methods in Water Resources, 2nd ed.**](https://pubs.er.usgs.gov/publication/tm4A3) - by Dennis R. Helsel, Robert M. Hirsch, Karen R. Ryberg, Stacey A. Archfield, and Edward J. Gilroy. Amazing reference for water quality stats and code.
+
+# Books (printed)
+
+Links lead to the publisher's page.
+
+## General stats
+
+-   Harrell, 2015. [**Regression Modeling Strategies**](https://link.springer.com/book/10.1007/978-3-319-19425-7)
+
+-   Gelman et al., 2020. [**Regression and Other Stories**](https://www.cambridge.org/highereducation/books/regression-and-other-stories/DD20DD6C9057118581076E54E40C372C#overview)- also available online; see link above.
+
+## Ecological, Environmental, and/or Water Resources Statistics
+
+-   Zuur, Ieno, and Smith, 2007. [**Analyzing Ecological Data**](https://link.springer.com/book/10.1007/978-0-387-45972-1)
+
+-   Gotelli and Ellison, 2012. [**A Primer of Ecological Statistics, 2nd edition**](https://global.oup.com/academic/product/a-primer-of-ecological-statistics-9781605350646?cc=us&lang=en&)
+
+-   McCune, and Grace, 2002. [**Analysis of Ecological Communities**](https://www.wildblueberrymedia.net/analysis-of-ecological-communities)
+
+-   Quinn and Keough, 2023. [**Experimental Design and Data Analysis for Biologists, 2nd edition**](https://www.cambridge.org/highereducation/books/experimental-design-and-data-analysis-for-biologists/7AA1811FE2E249CE6065ACD6F3B68C41#overview)
+
+# Online Resources (websites, blogs, tutorials)
+
+## Ecological, Environmental, and/or Water Resources Statistics
+
+-   Webinar series: [**Statistics for Data with Nondetects (Censored Data)**](https://practicalstats.com/videos/nadavids.html) - by Dennis Helsel, via his *Practical Stats* consulting firm.
+
+-   Class notes: [**Statistics for Environmental Science**](https://sakai.unc.edu/access/content/group/2842013b-58f5-4453-aa8d-3e01bacbfc3d/public/Ecol562_Spring2012/index.html) - lecture notes include a lot of useful topics, including GAMs, survival analysis, spatial and spatio-temporal stats, regression trees.
+
+-   Class notes: [**Statistical Methods in Ecology**](https://sakai.unc.edu/access/content/group/3d1eb92e-7848-4f55-90c3-7c72a54e7e43/public/index.html) - same professor as above. More introductory.
+
+## ...using R
+
+-   Workshop: [**Introduction to Multivariate Data Analysis using vegan**](https://github.com/gavinsimpson/intro-vegan-webinar-july-2020) - by Gavin Simpson. `vegan` is an extremely popular package for running community analyses for ecology. Link is to GitHub repository with materials; that GitHub page links to the [recording on YouTube](youtu.be/tVnnG7mFeqA).
+
+-   Workshop: [**Advanced Community Ecological Data Analysis using vegan**](https://github.com/gavinsimpson/advanced-vegan-webinar-july-2020) - by Gavin Simpson. Link is to GitHub repository with materials; that GitHub page links to the [recording on YouTube](youtu.be/PR1B_JkO49s).
+
+-   Tutorial: [**GAMs in R**](https://noamross.github.io/gams-in-r-course/) - by Noam Ross. Helpful interactive overview of Generalized Additive Models, which are becoming popular in ecology and water resources analyses.
+
+-   [**Gavin Simpson's blog**](https://fromthebottomoftheheap.net/blog/) has [many](https://fromthebottomoftheheap.net/2011/06/12/additive-modelling-and-the-hadcrut3v-global-mean-temperature-series/) [helpful](https://fromthebottomoftheheap.net/2016/03/25/additive-modeling-global-temperature-series-revisited/) [posts](https://fromthebottomoftheheap.net/2014/05/09/modelling-seasonal-data-with-gam/) on GAMs
+
+-   Ben Bolker has put together a fantastic [**FAQ about mixed models**](https://bbolker.github.io/mixedmodels-misc/glmmFAQ.html)

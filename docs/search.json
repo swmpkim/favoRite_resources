@@ -2,15 +2,120 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "favoRite_resources",
+    "title": "Helpful R and Statistics Resources",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "These pages are collections of resources that I’ve found helpful, particularly to fellow ecologists/environmental scientists, in learning R and/or statistics. Click on the pages in the top navigation bar to view.\nIf you could use R or statistics help, check out my business page at www.catbirdstats.com."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "R_resources.html",
+    "href": "R_resources.html",
+    "title": "R Resources",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Where to get help with your R question? - from Maelle Salmon’s blog\nWriting the perfect question - from Jon Skeet’s coding blog\nHow to write a great reproducible example - from a StackOverflow thread"
+  },
+  {
+    "objectID": "R_resources.html#r-and-the-tidyverse-generally",
+    "href": "R_resources.html#r-and-the-tidyverse-generally",
+    "title": "R Resources",
+    "section": "R and the tidyverse Generally",
+    "text": "R and the tidyverse Generally\n\nR For Data Science , 2nd edition - by Hadley Wickham, Mine Cetinkaya-Rundel, and Garrett Grolemund\nHands-On Programming with R - by Garrett Grolemund\nGetting used to R, RStudio, and R Markdown - by Chester Ismay\nModernDive: Statistical Inference via Data Science - by Chester Ismay and Albert Y. Kim. Don’t let the title scare you; there’s a lot in here about R and RStudio generally. It is also a helpful intro to stats.\nAdvanced R , 2nd edition - by Hadley Wickham. You don’t have to be truly advanced to benefit from this book.\nR Packages , 2nd edition - by Hadley Wickham and Jenny Bryan"
+  },
+  {
+    "objectID": "R_resources.html#workflow-tips",
+    "href": "R_resources.html#workflow-tips",
+    "title": "R Resources",
+    "section": "Workflow Tips",
+    "text": "Workflow Tips\n\n“Workflow” Chapter of R4DS - by Wickham, Cetinkaya-Rundel, and Grolemund\n“Projects” Chapter of ‘What They Forgot’ - from Jenny Bryan and Jim Hester. Talks specifically about working directories and Projects.\n“Project-oriented workflow” - blog post by Jenny Bryan"
+  },
+  {
+    "objectID": "R_resources.html#data-viz",
+    "href": "R_resources.html#data-viz",
+    "title": "R Resources",
+    "section": "Data Viz",
+    "text": "Data Viz\n\nData Visualization: A Practical Introduction - by Kieran Healy. Also a good intro to the ggplot2 package; learn by doing.\nFundamentals of Data Visualization - by Claus O. Wilke\nYouTube workshops from Thomas Lin Pederson (@thomasp85), a software engineer at Posit and co-author of the ggplot2 package (among other things). In 2020, he put on these impromptu workshops for beginner/intermediate R users:\n\nPart One (~2.5 hours) is focused on the grammar of graphics and theory behind ggplot2\nPart Two (~2 hours) discusses extension packages to the ggplot2 universe (gganimate and patchwork for example)\nHis materials are also available on GitHub"
+  },
+  {
+    "objectID": "R_resources.html#r-markdown",
+    "href": "R_resources.html#r-markdown",
+    "title": "R Resources",
+    "section": "R Markdown",
+    "text": "R Markdown\n\nR Markdown: The Definitive Guide - by Yihui Xie, J.J. Allaire, and Garrett Grolemund\nR Markdown Cookbook - by Yihui Xie, Christophe Dervieux, and Emily Riederer"
+  },
+  {
+    "objectID": "R_resources.html#quarto",
+    "href": "R_resources.html#quarto",
+    "title": "R Resources",
+    "section": "Quarto",
+    "text": "Quarto\n\nQuarto.org - the main website, with lots of tutorials and documention\nKeynote Presentation: Hello, Quarto - given by Mine Centinkaya-Rundel and Julia Stewart Lowndes at Posit::Conf 2023. Fantastic overview of the many things you can do in Quarto.\nTutorial: Hello, Quarto - Web-based overview of Quarto"
+  },
+  {
+    "objectID": "R_resources.html#geospatial-data",
+    "href": "R_resources.html#geospatial-data",
+    "title": "R Resources",
+    "section": "Geospatial Data",
+    "text": "Geospatial Data\n\nGeocomputation with R - by Robin Lovelace, Jakub Nowosad, and Jannes Muenchow. 2nd edition in progress.\nSpatial Data Science - by Edzer Pebesma and Roger Bivand"
+  },
+  {
+    "objectID": "R_resources.html#version-control-git-and-github",
+    "href": "R_resources.html#version-control-git-and-github",
+    "title": "R Resources",
+    "section": "Version Control (Git and Github)",
+    "text": "Version Control (Git and Github)\n\nHappy Git with R - online book by Jenny Bryan\nGitHub tutorials - from Karl Broman’s blog"
+  },
+  {
+    "objectID": "R_resources.html#general-stats",
+    "href": "R_resources.html#general-stats",
+    "title": "R Resources",
+    "section": "General stats",
+    "text": "General stats\n\nBook: Learning Statistics with R - by Danielle Navarro. Aimed at psychology researchers but has great motivating examples of why we even use statistics in the first place. Includes lots of clearly explained, worked examples using R code.\nBook: ModernDive: Statistical Inference via Data Science - by Chester Ismay and Albert Y. Kim."
+  },
+  {
+    "objectID": "R_resources.html#ecological-environmental-andor-water-resources-statistics",
+    "href": "R_resources.html#ecological-environmental-andor-water-resources-statistics",
+    "title": "R Resources",
+    "section": "Ecological, Environmental, and/or Water Resources Statistics",
+    "text": "Ecological, Environmental, and/or Water Resources Statistics\n\nWorkshop: Introduction to Multivariate Data Analysis using vegan - by Gavin Simpson. vegan is an extremely popular package for running community analyses for ecology. Link is to GitHub repository with materials; that GitHub page links to the recording on YouTube.\nWorkshop: Advanced Community Ecological Data Analysis using vegan - by Gavin Simpson. Link is to GitHub repository with materials; that GitHub page links to the recording on YouTube.\nTutorial: GAMs in R - by Noam Ross. Helpful interactive overview of Generalized Additive Models, which are becoming popular in ecology and water resources analyses.\nGavin Simpson’s blog has many helpful posts on GAMs\nBen Bolker has put together a fantastic FAQ about mixed models"
+  },
+  {
+    "objectID": "Stats_resources.html#general-stats",
+    "href": "Stats_resources.html#general-stats",
+    "title": "Statistics Resources",
+    "section": "General stats",
+    "text": "General stats\n\nLearning Statistics with R - by Danielle Navarro. Aimed at psychology researchers but has great motivating examples of why we even use statistics in the first place. Includes lots of clearly explained, worked examples using R code.\nModernDive: Statistical Inference via Data Science - by Chester Ismay and Albert Y. Kim.\nRegression and Other Stories - Gelman et al."
+  },
+  {
+    "objectID": "Stats_resources.html#ecological-environmental-andor-water-resources-statistics",
+    "href": "Stats_resources.html#ecological-environmental-andor-water-resources-statistics",
+    "title": "Statistics Resources",
+    "section": "Ecological, Environmental, and/or Water Resources Statistics",
+    "text": "Ecological, Environmental, and/or Water Resources Statistics\n\nBook: Statistical Methods in Water Resources, 2nd ed. - by Dennis R. Helsel, Robert M. Hirsch, Karen R. Ryberg, Stacey A. Archfield, and Edward J. Gilroy. Amazing reference for water quality stats and code."
+  },
+  {
+    "objectID": "Stats_resources.html#general-stats-1",
+    "href": "Stats_resources.html#general-stats-1",
+    "title": "Statistics Resources",
+    "section": "General stats",
+    "text": "General stats\n\nHarrell, 2015. Regression Modeling Strategies\nGelman et al., 2020. Regression and Other Stories- also available online; see link above."
+  },
+  {
+    "objectID": "Stats_resources.html#ecological-environmental-andor-water-resources-statistics-1",
+    "href": "Stats_resources.html#ecological-environmental-andor-water-resources-statistics-1",
+    "title": "Statistics Resources",
+    "section": "Ecological, Environmental, and/or Water Resources Statistics",
+    "text": "Ecological, Environmental, and/or Water Resources Statistics\n\nZuur, Ieno, and Smith, 2007. Analyzing Ecological Data\nGotelli and Ellison, 2012. A Primer of Ecological Statistics, 2nd edition\nMcCune, and Grace, 2002. Analysis of Ecological Communities\nQuinn and Keough, 2023. Experimental Design and Data Analysis for Biologists, 2nd edition"
+  },
+  {
+    "objectID": "Stats_resources.html#ecological-environmental-andor-water-resources-statistics-2",
+    "href": "Stats_resources.html#ecological-environmental-andor-water-resources-statistics-2",
+    "title": "Statistics Resources",
+    "section": "Ecological, Environmental, and/or Water Resources Statistics",
+    "text": "Ecological, Environmental, and/or Water Resources Statistics\n\nWebinar series: Statistics for Data with Nondetects (Censored Data) - by Dennis Helsel, via his Practical Stats consulting firm.\nClass notes: Statistics for Environmental Science - lecture notes include a lot of useful topics, including GAMs, survival analysis, spatial and spatio-temporal stats, regression trees.\nClass notes: Statistical Methods in Ecology - same professor as above. More introductory."
+  },
+  {
+    "objectID": "Stats_resources.html#using-r",
+    "href": "Stats_resources.html#using-r",
+    "title": "Statistics Resources",
+    "section": "…using R",
+    "text": "…using R\n\nWorkshop: Introduction to Multivariate Data Analysis using vegan - by Gavin Simpson. vegan is an extremely popular package for running community analyses for ecology. Link is to GitHub repository with materials; that GitHub page links to the recording on YouTube.\nWorkshop: Advanced Community Ecological Data Analysis using vegan - by Gavin Simpson. Link is to GitHub repository with materials; that GitHub page links to the recording on YouTube.\nTutorial: GAMs in R - by Noam Ross. Helpful interactive overview of Generalized Additive Models, which are becoming popular in ecology and water resources analyses.\nGavin Simpson’s blog has many helpful posts on GAMs\nBen Bolker has put together a fantastic FAQ about mixed models"
   }
 ]

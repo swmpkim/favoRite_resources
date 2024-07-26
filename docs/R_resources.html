@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>favoRite_resources - About</title>
+<title>favoRite_resources - R Resources</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -105,7 +71,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -127,7 +93,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./R_resources.html"> 
+    <a class="nav-link active" href="./R_resources.html" aria-current="page"> 
 <span class="menu-text">R Resources</span></a>
   </li>  
   <li class="nav-item">
@@ -144,16 +110,43 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#troubleshooting-help" id="toc-troubleshooting-help" class="nav-link active" data-scroll-target="#troubleshooting-help">Troubleshooting help</a></li>
+  <li><a href="#intro-material" id="toc-intro-material" class="nav-link" data-scroll-target="#intro-material">Intro material</a></li>
+  <li><a href="#general-resources" id="toc-general-resources" class="nav-link" data-scroll-target="#general-resources">General Resources</a></li>
+  <li><a href="#communities" id="toc-communities" class="nav-link" data-scroll-target="#communities">Communities</a></li>
+  <li><a href="#free-online-r-books-and-resources" id="toc-free-online-r-books-and-resources" class="nav-link" data-scroll-target="#free-online-r-books-and-resources">Free Online R Books and Resources</a>
+  <ul class="collapse">
+  <li><a href="#r-and-the-tidyverse-generally" id="toc-r-and-the-tidyverse-generally" class="nav-link" data-scroll-target="#r-and-the-tidyverse-generally">R and the <code>tidyverse</code> Generally</a></li>
+  <li><a href="#workflow-tips" id="toc-workflow-tips" class="nav-link" data-scroll-target="#workflow-tips">Workflow Tips</a></li>
+  <li><a href="#data-viz" id="toc-data-viz" class="nav-link" data-scroll-target="#data-viz">Data Viz</a></li>
+  <li><a href="#r-markdown" id="toc-r-markdown" class="nav-link" data-scroll-target="#r-markdown">R Markdown</a></li>
+  <li><a href="#quarto" id="toc-quarto" class="nav-link" data-scroll-target="#quarto">Quarto</a></li>
+  <li><a href="#geospatial-data" id="toc-geospatial-data" class="nav-link" data-scroll-target="#geospatial-data">Geospatial Data</a></li>
+  <li><a href="#version-control-git-and-github" id="toc-version-control-git-and-github" class="nav-link" data-scroll-target="#version-control-git-and-github">Version Control (Git and Github)</a></li>
+  </ul></li>
+  <li><a href="#statistics-using-r-books-and-resources" id="toc-statistics-using-r-books-and-resources" class="nav-link" data-scroll-target="#statistics-using-r-books-and-resources">Statistics using R (books and resources)</a>
+  <ul class="collapse">
+  <li><a href="#general-stats" id="toc-general-stats" class="nav-link" data-scroll-target="#general-stats">General stats</a></li>
+  <li><a href="#ecological-environmental-andor-water-resources-statistics" id="toc-ecological-environmental-andor-water-resources-statistics" class="nav-link" data-scroll-target="#ecological-environmental-andor-water-resources-statistics">Ecological, Environmental, and/or Water Resources Statistics</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">R Resources</h1>
 </div>
 
 
@@ -162,6 +155,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
     
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">July 26, 2024</p>
+    </div>
+  </div>
     
   </div>
   
@@ -170,15 +169,143 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>About this site</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
+<section id="troubleshooting-help" class="level1">
+<h1>Troubleshooting help</h1>
+<ul>
+<li><p><a href="https://masalmon.eu/2018/07/22/wheretogethelp/"><strong>Where to get help with your R question?</strong></a> - from Maelle Salmon’s blog</p></li>
+<li><p><a href="https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/"><strong>Writing the perfect question</strong></a> - from Jon Skeet’s coding blog</p></li>
+<li><p><a href="https://stackoverflow.com/a/5963610"><strong>How to write a great reproducible example</strong></a> - from a StackOverflow thread</p></li>
+</ul>
+<hr>
+</section>
+<section id="intro-material" class="level1">
+<h1>Intro material</h1>
+<ul>
+<li><p><a href="https://stat545.com/r-basics.html"><strong>R basics, workspace and working directory, RStudio projects</strong></a> - from STAT 545</p></li>
+<li><p><a href="https://rstats.wtf/"><strong>What They Forgot to Teach You About R</strong></a> - workshop materials by Jenny Bryan and Jim Hester</p></li>
+</ul>
+<hr>
+</section>
+<section id="general-resources" class="level1">
+<h1>General Resources</h1>
+<ul>
+<li><p><a href="https://rstudio.github.io/cheatsheets/"><strong>Posit cheat sheets</strong></a> - one-pagers for major packages. seriously, check them out.</p></li>
+<li><p><a href="https://support.posit.co/hc/en-us/articles/200711853-Keyboard-Shortcuts"><strong>RStudio keyboard shortcuts</strong></a></p>
+<p>Some of my favorites are:</p>
+<ul>
+<li><code>Ctrl</code> + <code>Enter</code>: run current line or selected code<br>
+</li>
+<li><code>Ctrl</code> + <code>-</code>: the assignment operator (<code>&lt;-</code>)<br>
+</li>
+<li><code>Ctrl</code> + <code>Shift</code> + <code>c</code>: comment all selected lines (insert <code>#</code> in front)<br>
+</li>
+<li><code>Ctrl</code> + <code>i</code>: re-indent selected code</li>
+<li><code>Ctrl</code> + <code>Alt</code> + <code>i</code>: insert a code chunk into RMarkdown or Quarto file<br>
+</li>
+<li><code>F2</code>: shows code used by function</li>
+</ul></li>
+<li><p><a href="https://posit.co/resources/videos/"><strong>Videos and Webinars from Posit</strong></a> - Several helpful webinars and presentations from past conferences.</p></li>
+</ul>
+</section>
+<section id="communities" class="level1">
+<h1>Communities</h1>
+<ul>
+<li><p><a href="https://community.rstudio.com/"><strong>RStudio/Posit Community Forums</strong></a>- A very friendly place to ask questions</p></li>
+<li><p><a href="https://www.rfordatasci.com/"><strong>R4DS community</strong></a> - Be sure to join the slack community; it is also a very friendly place, with R book clubs!</p></li>
+<li><p><a href="https://ropensci.org/community/"><strong>ROpenSci</strong></a> - Their regular community calls are worth checking out</p></li>
+<li><p><a href="https://github.com/rfordatascience/tidytuesday"><strong>Tidy Tuesday</strong></a>- Weekly data visualization project; datasets provided on github and people share their graphics on social media</p></li>
+<li><p><a href="https://www.facebook.com/groups/ecologyinr/"><strong>Ecology in R Facebook Group</strong></a></p></li>
+</ul>
+<hr>
+</section>
+<section id="free-online-r-books-and-resources" class="level1">
+<h1>Free Online R Books and Resources</h1>
+<p>Some more specialized than others</p>
+<section id="r-and-the-tidyverse-generally" class="level2">
+<h2 class="anchored" data-anchor-id="r-and-the-tidyverse-generally">R and the <code>tidyverse</code> Generally</h2>
+<ul>
+<li><p><a href="https://r4ds.hadley.nz/"><strong>R For Data Science</strong></a> , 2nd edition - by Hadley Wickham, Mine Cetinkaya-Rundel, and Garrett Grolemund</p></li>
+<li><p><a href="https://rstudio-education.github.io/hopr/"><strong>Hands-On Programming with R</strong></a> - by Garrett Grolemund</p></li>
+<li><p><a href="https://bookdown.org/chesterismay/rbasics/"><strong>Getting used to R, RStudio, and R Markdown</strong></a> - by Chester Ismay</p></li>
+<li><p><a href="https://moderndive.com/index.html"><strong>ModernDive: Statistical Inference via Data Science</strong></a> - by Chester Ismay and Albert Y. Kim. Don’t let the title scare you; there’s a lot in here about R and RStudio generally. It is also a helpful intro to stats.</p></li>
+<li><p><a href="https://adv-r.hadley.nz/"><strong>Advanced R</strong></a> , 2nd edition - by Hadley Wickham. You don’t have to be truly advanced to benefit from this book.</p></li>
+<li><p><a href="http://r-pkgs.org"><strong>R Packages</strong></a> , 2nd edition - by Hadley Wickham and Jenny Bryan</p></li>
+</ul>
+</section>
+<section id="workflow-tips" class="level2">
+<h2 class="anchored" data-anchor-id="workflow-tips">Workflow Tips</h2>
+<ul>
+<li><a href="https://r4ds.hadley.nz/workflow-scripts.html"><strong>“Workflow” Chapter of R4DS</strong></a> - by Wickham, Cetinkaya-Rundel, and Grolemund</li>
+<li><a href="https://rstats.wtf/projects"><strong>“Projects” Chapter of ‘What They Forgot’</strong></a> - from Jenny Bryan and Jim Hester. Talks specifically about working directories and Projects.</li>
+<li><a href="https://www.tidyverse.org/blog/2017/12/workflow-vs-script/"><strong>“Project-oriented workflow”</strong></a> - blog post by Jenny Bryan</li>
+</ul>
+</section>
+<section id="data-viz" class="level2">
+<h2 class="anchored" data-anchor-id="data-viz">Data Viz</h2>
+<ul>
+<li><p><a href="http://socviz.co/"><strong>Data Visualization: A Practical Introduction</strong></a> - by Kieran Healy. Also a good intro to the <code>ggplot2</code> package; learn by doing.</p></li>
+<li><p><a href="https://clauswilke.com/dataviz/"><strong>Fundamentals of Data Visualization</strong></a> - by Claus O. Wilke</p></li>
+<li><p>YouTube workshops from Thomas Lin Pederson (<a href="https://twitter.com/thomasp85">@thomasp85</a>), a software engineer at Posit and co-author of the <code>ggplot2</code> package (among other things). In 2020, he put on these impromptu workshops for beginner/intermediate R users:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=h29g21z0a68"><strong>Part One (~2.5 hours)</strong></a> is focused on the grammar of graphics and theory behind <code>ggplot2</code></li>
+<li><a href="https://www.youtube.com/watch?v=0m4yywqNPVY"><strong>Part Two (~2 hours)</strong></a> discusses extension packages to the <code>ggplot2</code> universe (<code>gganimate</code> and <code>patchwork</code> for example)</li>
+<li>His materials are also available on <a href="https://github.com/thomasp85/ggplot2_workshop">GitHub</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="r-markdown" class="level2">
+<h2 class="anchored" data-anchor-id="r-markdown">R Markdown</h2>
+<ul>
+<li><p><a href="https://bookdown.org/yihui/rmarkdown/"><strong>R Markdown: The Definitive Guide</strong></a> - by Yihui Xie, J.J. Allaire, and Garrett Grolemund</p></li>
+<li><p><a href="https://bookdown.org/yihui/rmarkdown-cookbook/"><strong>R Markdown Cookbook</strong></a> - by Yihui Xie, Christophe Dervieux, and Emily Riederer</p></li>
+</ul>
+</section>
+<section id="quarto" class="level2">
+<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
+<ul>
+<li><p><a href="https://quarto.org/"><strong>Quarto.org</strong></a> - the main website, with lots of tutorials and documention</p></li>
+<li><p><a href="https://www.youtube.com/watch?v=p7Hxu4coDl8"><strong>Keynote Presentation: Hello, Quarto</strong></a> - given by Mine Centinkaya-Rundel and Julia Stewart Lowndes at Posit::Conf 2023. Fantastic overview of the many things you can do in Quarto.</p></li>
+<li><p><a href="https://quarto.org/docs/get-started/hello/rstudio.html"><strong>Tutorial: Hello, Quarto</strong></a> - Web-based overview of Quarto</p></li>
+</ul>
+</section>
+<section id="geospatial-data" class="level2">
+<h2 class="anchored" data-anchor-id="geospatial-data">Geospatial Data</h2>
+<ul>
+<li><p><a href="https://r.geocompx.org/"><strong>Geocomputation with R</strong></a> - by Robin Lovelace, Jakub Nowosad, and Jannes Muenchow. 2nd edition in progress.</p></li>
+<li><p><a href="http://r-spatial.org/book"><strong>Spatial Data Science</strong></a> - by Edzer Pebesma and Roger Bivand</p></li>
+</ul>
+</section>
+<section id="version-control-git-and-github" class="level2">
+<h2 class="anchored" data-anchor-id="version-control-git-and-github">Version Control (Git and Github)</h2>
+<ul>
+<li><a href="http://happygitwithr.com"><strong>Happy Git with R</strong></a> - online book by Jenny Bryan</li>
+<li><a href="https://kbroman.org/github_tutorial/"><strong>GitHub tutorials</strong></a> - from Karl Broman’s blog</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="statistics-using-r-books-and-resources" class="level1">
+<h1>Statistics using R (books and resources)</h1>
+<section id="general-stats" class="level2">
+<h2 class="anchored" data-anchor-id="general-stats">General stats</h2>
+<ul>
+<li><p>Book: <a href="https://learningstatisticswithr.com"><strong>Learning Statistics with R</strong></a> - by Danielle Navarro. Aimed at psychology researchers but has great motivating examples of why we even use statistics in the first place. Includes lots of clearly explained, worked examples using R code.</p></li>
+<li><p>Book: <a href="https://moderndive.com/index.html"><strong>ModernDive: Statistical Inference via Data Science</strong></a> - by Chester Ismay and Albert Y. Kim.</p></li>
+</ul>
+</section>
+<section id="ecological-environmental-andor-water-resources-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="ecological-environmental-andor-water-resources-statistics">Ecological, Environmental, and/or Water Resources Statistics</h2>
+<ul>
+<li><p>Workshop: <a href="https://github.com/gavinsimpson/intro-vegan-webinar-july-2020"><strong>Introduction to Multivariate Data Analysis using vegan</strong></a> - by Gavin Simpson. <code>vegan</code> is an extremely popular package for running community analyses for ecology. Link is to GitHub repository with materials; that GitHub page links to the <a href="youtu.be/tVnnG7mFeqA">recording on YouTube</a>.</p></li>
+<li><p>Workshop: <a href="https://github.com/gavinsimpson/advanced-vegan-webinar-july-2020"><strong>Advanced Community Ecological Data Analysis using vegan</strong></a> - by Gavin Simpson. Link is to GitHub repository with materials; that GitHub page links to the <a href="youtu.be/PR1B_JkO49s">recording on YouTube</a>.</p></li>
+<li><p>Tutorial: <a href="https://noamross.github.io/gams-in-r-course/"><strong>GAMs in R</strong></a> - by Noam Ross. Helpful interactive overview of Generalized Additive Models, which are becoming popular in ecology and water resources analyses.</p></li>
+<li><p><a href="https://fromthebottomoftheheap.net/blog/"><strong>Gavin Simpson’s blog</strong></a> has <a href="https://fromthebottomoftheheap.net/2011/06/12/additive-modelling-and-the-hadcrut3v-global-mean-temperature-series/">many</a> <a href="https://fromthebottomoftheheap.net/2016/03/25/additive-modeling-global-temperature-series-revisited/">helpful</a> <a href="https://fromthebottomoftheheap.net/2014/05/09/modelling-seasonal-data-with-gam/">posts</a> on GAMs</p></li>
+<li><p>Ben Bolker has put together a fantastic <a href="https://bbolker.github.io/mixedmodels-misc/glmmFAQ.html"><strong>FAQ about mixed models</strong></a></p></li>
+</ul>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
